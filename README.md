@@ -30,7 +30,7 @@ dotnet ef --startup-project QuoteQuiz.Api/QuoteQuiz.Api.csproj migrations add In
 - buid and start, that should launch a server on https://localhost:7197 ,
 and you should see a swagger UI with the endpoints
 
-## FE part
+## FE part (based on create-react-app)
 - you will need Nodejs, then go to frontend folder
 - run "npm install", then run "npm start"
 - that should launch a server on https://localhost:3000
