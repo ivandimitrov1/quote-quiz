@@ -6,6 +6,9 @@
 - a user can take multiple quizes and can take a quiz more than once
 - admin can review all user attemps, a user can see only their results
 
+# Tech stack and design
+- boostrap, react, c#, .net 6, ef core, sql server, DDD, adapters and ports
+
 # How to run
 ## start with the database
 - you will need Sql Server
