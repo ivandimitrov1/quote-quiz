@@ -7,17 +7,19 @@
 
 # How to run
 ## start with the database
-- you will need Sql Server and Visual studio 2022
+- you will need Sql Server
 - then you can download the backup database from backups folder and restore it
 - adjust the database user access, see the appsettings.json files in the solution
 
 Or you can apply the migrations:
-- create manually database with name "frt_quote_quiz"
+- create manually a database with name "frt_quote_quiz"
 - make sure that the user access, see the appsettings.json files
 - open PowerShell with current folder: QuoteQuiz.Api and execute "dotnet ef database update"
 
 And you can create migration scripts by open solution folder and execute in PowerShell 
-"dotnet ef --startup-project QuoteQuiz.Api/QuoteQuiz.Api.csproj migrations add Init --output-dir Migrations --project QuoteQuiz.Infrastructure/QuoteQuiz.Infrastructure.csproj --verbose"
+- example how to add a migration script with name "Init"
+
+dotnet ef --startup-project QuoteQuiz.Api/QuoteQuiz.Api.csproj migrations add Init --output-dir Migrations --project QuoteQuiz.Infrastructure/QuoteQuiz.Infrastructure.csproj --verbose
 
 ## open the BE solution
 - buid and start, that should launch a server on https://localhost:7197 ,
