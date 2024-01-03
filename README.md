@@ -22,6 +22,7 @@ And you can create migration scripts by open solution folder and execute in Powe
 dotnet ef --startup-project QuoteQuiz.Api/QuoteQuiz.Api.csproj migrations add Init --output-dir Migrations --project QuoteQuiz.Infrastructure/QuoteQuiz.Infrastructure.csproj --verbose
 
 ## open the BE solution
+- you will need Visual Studio 2022
 - buid and start, that should launch a server on https://localhost:7197 ,
 and you should see a swagger UI with the endpoints
 
