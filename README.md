@@ -1,9 +1,10 @@
 # Quote quiz application
 - an application where users can create quize and take quizes (something like questions/answers)
-- a quiz contains quotes with possible answers
-- a user can create multiple quizes and every quiz can contain multiple quotes with answers
+- a quiz contains quote or many quotes with possible answers
+- a user can create multiple quizes
 - a quote could be Yes or No or a quote with multiple choice quote
 - a user can take multiple quizes and can take a quiz more than once
+- admin can review all user attemps, a user can see only their results
 
 # How to run
 ## start with the database
