@@ -8,7 +8,7 @@
 
 # Tech stack and design
 - (FE) boostrap, react
-- (BE) c#, .net 6, ef core, sql server, DDD, adapters and ports
+- (BE) c#, .net 6, web apis,  ef core, sql server, DDD, adapters and ports
 
 # How to run
 ## start with the database
@@ -34,7 +34,7 @@ and you should see a swagger UI with the endpoints
 ## FE part (based on create-react-app)
 - you will need Nodejs, then go to frontend folder
 - run "npm install", then run "npm start"
-- that should launch a server on https://localhost:3000
+- that should launch a server on https://localhost:3000 which will make requests to the BE server
 
 Thats all. If you use the backup, then you have two users created already
 - user with pass: user
